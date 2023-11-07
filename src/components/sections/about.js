@@ -134,36 +134,32 @@ const About = () => {
     'Spring Boot',
     'Java (8+)',
     'Node.js',
+    'Express.js',
     'SQL',
     'MongoDB',
     'Webpack',
     'Babel',
+    'Microsoft Azure',
+    'Google Cloud',
   ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">My background and skills</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              My journey into the world of software engineering began in 2012 when I created my
-              first Turbo C application. From that moment, I was captivated by the process of
-              building something from the ground up, and the joy and satisfaction it brought me.
-              Ever since then, I've been on a relentless pursuit to recreate that feeling.
-            </p>
-
-            <p>
-              Today, I've been fortunate to work with a variety of teams in different organizations,
-              ranging from startups to tech giants. My experiences include contributing to the
-              innovative cloud technologies at{' '}
-              <a href="https://aws.amazon.com/">Amazon Web Services </a>, diving into the fast-paced
-              world of fintech at <a href="https://cybrilla.com/">Cybrilla</a> , and exploring the
-              SaaS landscape at <a href="https://gowebknot.com/">WebKnot</a>. Currently, I'm in the
-              final semester of my Master's of Science in Information Systems program at{' '}
-              <a href="https://www.northeastern.edu/">Northeastern University - Boston</a>, where I
-              continue to hone my expertise in the field
+              I've been fortunate to work with a variety of teams in different organizations. My
+              experiences include contributing to the A.I/M.L based mortgage document handling
+              platform at <a href="https://www.mrcooper.com/">Mr. Cooper</a>, known as the
+              <a href="https://pyroai.com/"> &nbsp; PYRO AI</a>. I have also worked with an
+              international bank at <a href="https://www.cognizant/">Cognizant</a> where I crafted
+              several behavioural driven scenarios to break down their work-flow. I wanted to
+              leverage my technical expertise in web development and decided to pursue my Masters at{' '}
+              <a href="https://www.northeastern.edu/">Northeastern University</a>, where I chose web
+              development as my major concentration.
             </p>
 
             <p>Here are some of the technologies I've been actively working with recently:</p>

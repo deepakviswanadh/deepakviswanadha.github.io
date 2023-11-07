@@ -71,7 +71,7 @@ const Hero = () => {
         <a href="https://www.northeastern.edu/" target="_blank" rel="noreferrer">
           Northeastern University
         </a>
-        .
+        &nbsp;with an overall work experience of about 3 years.
       </p>
     </>
   );
