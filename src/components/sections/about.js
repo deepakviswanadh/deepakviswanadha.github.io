@@ -139,8 +139,12 @@ const About = () => {
     'MongoDB',
     'Webpack',
     'Babel',
-    'Microsoft Azure',
-    'Google Cloud',
+    'Bundle optimization',
+    'Bundle compression',
+    'Infinite loading',
+    'Lazy-loading',
+    'Micro-frontends',
+    'Micro-services',
   ];
 
   return (
@@ -162,7 +166,7 @@ const About = () => {
               development as my major concentration.
             </p>
 
-            <p>Here are some of the technologies I've been actively working with recently:</p>
+            <p>My skills/interests include:</p>
           </div>
 
           <ul className="skills-list">

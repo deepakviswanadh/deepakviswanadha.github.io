@@ -66,8 +66,7 @@ const Hero = () => {
     <>
       <p>
         I'm a full-stack web developer, dedicated to creating exceptional, user-friendly web
-        applications, currently pursuing my Master's in Information Systems with a specialization in
-        full-stack web development at{' '}
+        applications, currently pursuing my Master's in Information Systems at{' '}
         <a href="https://www.northeastern.edu/" target="_blank" rel="noreferrer">
           Northeastern University
         </a>
