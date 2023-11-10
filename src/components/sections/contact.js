@@ -60,12 +60,15 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        I am currently actively looking for any Summer 2024 internship/co-op positions in the USA as
+        a Software Developer/Front-end Developer/ Back-end Developer/Full Stack Developer intern.
+        <br />
+        If there are any open/relavant positions that you believe I can fit in, kindly reach out to
+        me.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+        Contact me!
       </a>
     </StyledContactSection>
   );

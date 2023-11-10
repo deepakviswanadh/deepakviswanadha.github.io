@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
@@ -74,9 +75,6 @@ const Footer = () => {
   });
 
   useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
-      return;
-    }
     fetch('https://api.github.com/repos/bchiang7/v4')
       .then(response => response.json())
       .then(json => {
@@ -107,6 +105,7 @@ const Footer = () => {
       <StyledCredit tabindex="-1">
         <a href="https://github.com/bchiang7/v4">
           <div>Designed &amp; Built by Brittany Chiang</div>
+          <div>Revamped by Deepak Viswanadha</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
