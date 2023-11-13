@@ -1,11 +1,12 @@
 {
   "name": "v1",
+  "homepage": "http://github.com/deepakviswanadh/deepakviswanadha.github.io/",
   "description": "Personal Website",
   "version": "1.0.0",
-  "author": "Deepak Viswanadha",
+  "author": "Deepak Viswanadha>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/deepakviswanadh/deepakviswanadha.github.io"
   },
   "keywords": [
     "gatsby"
@@ -20,6 +21,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
@@ -51,7 +53,7 @@
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
     "lodash": "^4.17.19",
-    "prismjs": "^1.27.0",
+    "prismjs": "^1.25.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -72,6 +74,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
+    "gh-pages": "^4.0.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
