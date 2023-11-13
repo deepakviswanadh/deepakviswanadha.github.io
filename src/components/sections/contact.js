@@ -60,11 +60,11 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I am currently actively looking for any Summer 2024 internship/co-op positions in the USA as
-        a Software Developer/Front-end Developer/ Back-end Developer/Full Stack Developer intern.
+        I am currently actively looking for any Summer 2024 internships/co-op positions in the USA
+        as a Software Developer/Front-end Developer/ Back-end Developer/Full Stack Developer intern.
         <br />
         If there are any open/relavant positions that you believe I can fit in, kindly reach out to
-        me.
+        me. Also, as you are here, feel free to say Hello!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
