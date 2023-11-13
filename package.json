@@ -21,7 +21,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
-    "deploy": "gatsby build && gh-pages -d public -b main",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
@@ -75,7 +75,7 @@
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
     "gh-pages": "^4.0.0",
-    "husky": "^6.0.0",
+    "husky": "^8.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
   }
