@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Secret Society'
 cover: './devblog.png'
 github: 'https://github.com/deepakviswanadh/mern-CloakBoard'

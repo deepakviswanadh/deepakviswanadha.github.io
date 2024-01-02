@@ -227,7 +227,7 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              {/* <div>{ResumeLink}</div> */}
             </StyledLinks>
 
             <Menu />
