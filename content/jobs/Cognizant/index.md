@@ -7,7 +7,6 @@ range: 'Dec 2020 - Jun 2021'
 url: 'https://www.cognizant.com/'
 ---
 
-- Developed behavioral-driven scenarios (B.D.D), automated the corresponding cases using Java and JavaScript and generated reports
-- Wrote automation scenarios (T.D.D) and developed a framework for the client's banking platform
-- Participated in client discussions to understand the future scope of the project and helped the team in streamlining the automation scripts
-- Tech-stack: Java, JavaScript, Selenium, Cucumber, B.D.D & T.D.D
+- Developed behavioral-driven scenarios (B.D.D), using Java and JavaScript
+- Wrote Test Driven Development, automation scenarios (T.D.D) in Selenium, supported the team in improving the overall test coverage for the end-to-end cycle of the client's SASS offering
+- Adhered to Agile methology using Jira within SDLC and engaged with clients,stakeholders to understand the functional requirements

@@ -127,24 +127,20 @@ const About = () => {
   }, []);
 
   const skills = [
-    'React.js',
-    'Next.js',
-    'JavaScript',
-    'TypeScript',
-    'Spring Boot',
-    'Java (8+)',
-    'Node.js',
-    'Express.js',
-    'SQL',
-    'MongoDB',
-    'Webpack',
-    'Babel',
-    'Bundle optimization',
-    'Bundle compression',
-    'Infinite loading',
-    'Lazy-loading',
-    'Micro-frontends',
-    'Micro-services',
+    'React/NextJS',
+    'JavaScript/TypeScript',
+    'Java/Spring Boot',
+    'Spring Cloud and Suite',
+    'NodeJS/ExpressJS',
+    'Python/Flask',
+    'C#/ASP .Net Core & MVC',
+    'MySQL,MongoDB,DynamoDB',
+    'Docker,Kubernetes',
+    'Prometheus,Grafana',
+    'AWS/GCP/Azure',
+    'IAC-Terraform,CDK etc',
+    'Jest/JUnit',
+    'Figma/UX',
   ];
 
   return (
@@ -155,17 +151,13 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I've been fortunate to work with a variety of teams in different organizations. My
-              experiences include contributing to the A.I/M.L based mortgage document handling
-              platform at <a href="https://www.mrcooper.com/">Mr. Cooper</a>, known as the
-              <a href="https://pyroai.com/"> &nbsp; PYRO AI</a>. I have also worked with an
-              international bank at <a href="https://www.cognizant/">Cognizant</a> where I crafted
-              several behavioural driven scenarios to break down their work-flow. I wanted to
-              leverage my technical expertise in web development and decided to pursue my Masters at{' '}
-              <a href="https://www.northeastern.edu/">Northeastern University</a>, where I chose web
-              development as my major concentration.
+              I hold around <strong>4 years</strong>&nbsp;of professional experience, during which
+              I've honed my skills in various domains such as distributed systems design,
+              microservices, microfrontends, cloud computing & performance optimization. I have a
+              proven track record of improving UI load times, system throughput, and implementing
+              scalable solutions. I'm particularly curious about security, performance optimization,
+              and building high-performing yet simple software solutions.
             </p>
-
             <p>My skills/interests include:</p>
           </div>
 

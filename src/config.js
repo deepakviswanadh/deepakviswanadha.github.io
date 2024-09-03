@@ -11,8 +11,8 @@ module.exports = {
       url: 'https://www.linkedin.com/in/deepakviswanadha/',
     },
     {
-      name: 'Leetcode',
-      url: 'https://leetcode.com/deepak16c/',
+      name: 'AWS',
+      url: 'https://www.credly.com/badges/a89c4fc8-f3a1-40ef-a308-38f078d1d67b/',
     },
     {
       name: 'PYRO_AI',

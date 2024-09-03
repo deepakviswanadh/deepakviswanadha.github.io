@@ -8,7 +8,6 @@ const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
   height: 100vh;
   padding: 0;
 
@@ -59,23 +58,26 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hey there,</h1>;
+  const one = <h1>Hello there,</h1>;
   const two = <h2 className="big-heading">I am Deepak Viswanadha,</h2>;
-  const three = <h4 className="big-heading">A professional Web developer</h4>;
-  const four = (
+  const three = (
     <>
       <p>
-        I'm a full-stack web developer, dedicated to creating exceptional, user-friendly web
-        applications, currently pursuing my Master's in Information Systems at{' '}
+        A Full Stack Polyglot Developer,{' '}
+        <a href="https://www.credly.com/badges/a89c4fc8-f3a1-40ef-a308-38f078d1d67b/">
+          AWS Certified Developer Associate
+        </a>{' '}
+        and a master's of Computer Software Engg. student at{' '}
         <a href="https://www.northeastern.edu/" target="_blank" rel="noreferrer">
-          Northeastern University
+          Northeastern University.
         </a>
-        &nbsp;with an overall work experience of about 3 years.
+        &nbsp;I'm passionate about building user-centric solutions. I thrive in designing,
+        developing, and maintaining distributed systems, micro services & micro frontends.
       </p>
     </>
   );
 
-  const items = [one, two, three, four];
+  const items = [one, two, three];
 
   return (
     <StyledHeroSection>

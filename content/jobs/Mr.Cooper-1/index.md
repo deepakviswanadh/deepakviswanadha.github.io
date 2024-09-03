@@ -7,8 +7,7 @@ range: 'June 2021 - Mar 2023'
 url: 'https://www.mrcooper.com/'
 ---
 
-- Designed & developed a suite that integrates multiple single-page applications using micro front-end architecture
-- Engineered apps to sort/classify pages in mortgage documents. They are used for H.I.T.L or training M.L models with data feedback
-- Crafted apps to extract data and re-annotate mortgage documents, serving as feedback for M.L model training and data delivery
-- Implemented virtualization techniques to optimize the apps, achieving loading times of under 6 seconds (<600-900% time improvement), and reducing response delays from 5/6 seconds to milliseconds
-- Introduced advanced features such as single/multi drag & drop, carousel implementation, search functionality, sorting capabilities, filtering options, and canvas shape drawing
+- Engineered single-page applications, improving AI/ML models accuracy by 90%
+- Developed high-performance micro-services using Spring Boot, Spring Cloud, Apache Kafka, Pub-Sub Topics, with a steady throughput of processing of 1000 pages/min
+- Implemented virtualization, lazy loading & script compression techniques in React, achieving UI loading times of 6 seconds (600-700% improvement), & enhanced functional response times from 5/6 seconds to milliseconds
+- Achieved 80% code coverage by implementing unit testing with Jest & JUnit, reducing debugging time by 15% & optimizing user workflows and reducing SLAs by 20%
